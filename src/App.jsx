@@ -8,9 +8,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-					<Route path="/form/signup" element={<SignUp />}/>
-					<Route path="/form/login" element={<LogIn />}/>
-					<Route path="*" element={<Navigate to="/form/signup" />}
+					<Route path="/form-react/signup" element={<SignUp />}/>
+					<Route path="/form-react/login" element={<LogIn />}/>
+					<Route path="*" element={<Navigate to="/form-react/signup" />}
     />
         </Routes>
       </BrowserRouter>

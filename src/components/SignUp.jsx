@@ -133,7 +133,7 @@ const SignUp = () => {
           )}
         </div>
         <div className="formButtons">
-					<Link className="link" to="/form/login">Log In</Link>
+					<Link className="link" to="/form-react/login">Log In</Link>
           <button type="submit">Sign Up</button>
         </div>
       </form>
